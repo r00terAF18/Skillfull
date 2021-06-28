@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="bubuntoid.EasyDialog.MaterialSkin" Version="6.0.1" />
-    <PackageReference Include="lioncs.MaterialSkin" Version="1.0.0" />
     <PackageReference Include="MaterialSkin.NET5" Version="1.0.0" />
   </ItemGroup>
 
