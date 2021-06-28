@@ -4,6 +4,20 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Amir Hossein Roohi</Authors>
+    <Company>r00terAF</Company>
+    <PackageProjectUrl>https://github.com/r00terAF18/Skillfull</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/r00terAF18/Skillfull</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>skillfull_key.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants />
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
