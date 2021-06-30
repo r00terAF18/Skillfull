@@ -40,6 +40,7 @@ namespace Skillfull
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.btnDownload = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnCopyCode = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.lblOutPut = new MaterialSkin.Controls.MaterialLabel();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,7 +155,7 @@ namespace Skillfull
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(12, 129);
+            this.materialLabel5.Location = new System.Drawing.Point(12, 119);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(166, 19);
@@ -167,7 +168,7 @@ namespace Skillfull
             this.btnDownload.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnDownload.Depth = 0;
             this.btnDownload.Icon = null;
-            this.btnDownload.Location = new System.Drawing.Point(477, 129);
+            this.btnDownload.Location = new System.Drawing.Point(477, 119);
             this.btnDownload.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Primary = true;
@@ -193,12 +194,25 @@ namespace Skillfull
             this.btnCopyCode.UseVisualStyleBackColor = true;
             this.btnCopyCode.Click += new System.EventHandler(this.btnCopyCode_Click);
             // 
+            // lblOutPut
+            // 
+            this.lblOutPut.AutoSize = true;
+            this.lblOutPut.Depth = 0;
+            this.lblOutPut.Font = new System.Drawing.Font("Roboto", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOutPut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblOutPut.Location = new System.Drawing.Point(225, 147);
+            this.lblOutPut.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblOutPut.Name = "lblOutPut";
+            this.lblOutPut.Size = new System.Drawing.Size(0, 19);
+            this.lblOutPut.TabIndex = 9;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(584, 201);
+            this.Controls.Add(this.lblOutPut);
             this.Controls.Add(this.btnCopyCode);
             this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.materialLabel5);
@@ -236,6 +250,7 @@ namespace Skillfull
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialRaisedButton btnDownload;
         private MaterialSkin.Controls.MaterialRaisedButton btnCopyCode;
+        private MaterialSkin.Controls.MaterialLabel lblOutPut;
     }
 }
 

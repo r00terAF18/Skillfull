@@ -23,6 +23,22 @@
   <ItemGroup>
     <PackageReference Include="bubuntoid.EasyDialog.MaterialSkin" Version="6.0.1" />
     <PackageReference Include="MaterialSkin.NET5" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SkillfullSet.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SkillfullSet.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SkillfullSet.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SkillfullSet.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>
